@@ -6,7 +6,6 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <title>Bar à Pates</title>
 
@@ -43,6 +42,53 @@
    <!-- ___________________END HEADER___________________ -->
    <!-- ___________________SLIDER ___________________ -->
    
+<style>
+.mySlides {display:none}
+.w3-left, .w3-right, .w3-badge {cursor:pointer}
+.w3-badge {height:13px;width:13px;padding:0}
+</style>
+
+<div class="w3-content w3-display-container" style="max-width:800px">
+  <img class="mySlides" src="http://img.fac.pmdstatic.net/fit/http.3A.2F.2Fwww.2Efemmeactuelle.2Efr.2Fvar.2Ffemmeactuelle.2Fstorage.2Fimages.2Fminceur.2Fnews-minceur.2Fles-pates-ne-font-pas-grossir-31205.2F14121033-1-fre-FR.2Fnon-les-pates-ne-font-pas-grossir-au-contraire.2Ejpg/748x372/crop-from/center/non-les-pates-ne-font-pas-grossir-au-contraire.jpeg" style="width:100%">
+  <img class="mySlides" src="https://images.marmitoncdn.org/pixcontent/70e30513-8902-4bf4-8c07-70d57b779a8f/2d8160a9-0b01-4d66-976a-135fecc19c97/recette_de_pates_carbonara.jpg" style="width:100%">
+  <img class="mySlides" src="http://img.over-blog-kiwi.com/1/05/68/19/20141121/ob_96d6f0_pates-ricotta-saumon-fume-et-ciboulett.jpg" style="width:100%">
+  <div class="w3-center w3-container w3-section w3-large w3-text-pink w3-display-bottommiddle" style="width:100%">
+    <div class="w3-left w3-hover-text-khaki" onclick="plusDivs(-1)">&#10094;</div>
+    <div class="w3-right w3-hover-text-khaki" onclick="plusDivs(1)">&#10095;</div>
+    <span class="w3-badge demo w3-border w3-transparent w3-hover-pink" onclick="currentDiv(1)"></span>
+    <span class="w3-badge demo w3-border w3-transparent w3-hover-pink" onclick="currentDiv(2)"></span>
+    <span class="w3-badge demo w3-border w3-transparent w3-hover-pink" onclick="currentDiv(3)"></span>
+  </div>
+</div>
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function currentDiv(n) {
+  showDivs(slideIndex = n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+     dots[i].className = dots[i].className.replace(" w3-white", "");
+  }
+  x[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " white";
+}
+</script>
 
 
    <!-- __________________ END SLIDER ___________________ -->
@@ -58,7 +104,7 @@
    <!-- __________________ END NOS PRODUIT FAVORIS ___________________ -->
    <!-- __________________ QUI SOMME NOUS ? ___________________ -->
    <section class="aboutus">
-     <h1>Qui somme-nous?</h1>
+     <h1>Le Staff</h1>
      <p>L’Atelier 72, c’est l’histoire de deux soeurs Cécile et Isabelle Masurel qui cuisinent chaque jour des produits frais pour vous garantir la meilleure qualité et les meilleures saveurs.</p>
      <article>
        <figure>
@@ -73,17 +119,19 @@
    </section>
    <!-- __________________ END QUI SOMME NOUS ? ___________________ -->
    <!-- __________________ FOOTER  ___________________ -->
-   <ul>
+   <ul class="footer-left">
      <li><i>51 rue du Fontenoy, 59100 ROUBAIX</li>
      <li><i>Phone: 06 61 18 76 24</li>
      <li><i>Horaire: 11h à 14h</li>
      <li><i>du Lundi au Vendredi</li>
    </ul>
 
+   <article class="footer-right">   
    <a href=""><img src="img/icon/facebook.svg" alt="facebook"></a>
    <a href=""><img src="img/icon/insta.svg" alt="instagram"></a>
    <a href=""><img src="img/icon/snap.svg" alt="snapchat"></a>
    <a href=""><img src="img/icon/twitter.svg" alt="twitter"></a>
+    </article>
    <!-- __________________ END FOOTER  ___________________ -->
    
 
