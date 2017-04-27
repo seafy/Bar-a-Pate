@@ -1,0 +1,50 @@
+
+
+        #navbar li, #navbar2 li {
+ 
+        display: inline;
+        margin: auto;
+        list-style-type: none;
+        padding-right: 20px;
+        }
+        
+        #TLink1{
+        float: right;
+        margin-top: -13%;
+        margin-right: 2%;
+        }
+
+	body {font-size: 1.1em;}
+	td, th {border:solid 1px #000;}		
+	th {background-color:#eee;}	
+	td.wrong {background-color:#fcc; font-style:italic;}
+	table h2, p, input, li, th, td, dt, dd, em, caption {font-size: 1em; font-family: Arial;}
+	li {margin: 0.6em 0}
+	caption {font-style: italic; margin-bottom:0.5em;}	
+	dt {margin-top:0.4em}
+	h2 {margin-top:1em;}
+	.results h3 {font-size:1.3em; margin: 1em 0 1em 0;}	
+	.results td, .results th {text-align:left;}	
+	.results table {margin-bottom:2em;}
+	input {margin: 0 0.3em 0 0;}	
+	.markup {display:block; font-weight:normal; color:#333; background:#def;}
+	th, td {vertical-align:top; padding:0.1em 0.3em;}
+	h2 em {font-weight:normal; display:block;}
+	dt {font-weight:bold}
+	table, h1 {	margin: 1.3em 0 1em 0;}
+	.intro {max-width:44em}
+	.intro p {margin:1em 0;}
+	.dispay-none {display:none;}
+	.hide {position:absolute; left-20000px; top:auto; width:1px; height:1px; overflow:hidden;}
+	pre {border: 1px solid #555; padding: 0.5em; background-color:#def; color:#000;}
+	code {font-size:1.1em; font-weight:bold;}		
+	.speech-output {font-family:cursive; font-size:smaller; color:#234; background-color:#ef9;}
+	td.partial-support{background:#eb1; color:black; font-weight:bold;}
+	td.supported{background:#5f5; color:black; font-weight:bold;}
+	td.not-supported{background:#f55; color:black; font-weight:bold;}
+	.footnote {font-weight:normal;font-size:smaller; margin-top:0.5em; line-height:1em;}
+	a:hover, a:focus, a:active {border: 3px solid #c04;}
+	a {border:3px solid transparent ;}
+	a > code, p > code, td > code, li > code, strong > code {color:#333; background-color:#def; text-decoration:none;}
+	
+

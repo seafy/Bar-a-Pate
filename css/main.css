@@ -100,6 +100,12 @@ body {
   background-color: #CECECE;
 }
 
+/* element caché!!! */
+.header-right {
+  display: none;
+}
+
+
 /* Page Index */
 header {
   width: 100%;
@@ -107,6 +113,9 @@ header {
   background-color: #A3A3A3;
 
 }
+
+
+
 
 .header-right {
   margin-top: -2.5%;
@@ -204,8 +213,21 @@ footer {
 @media (min-width:768px) {
   /* VINCENT */
 
+#TLink1
+{
+  margin-top:  3em;
+  float: right;
+}  
 
+/* element caché!! */
+.header-right{
+  display: none;
+}
 
+/* element affiché!! */
+.smartphone{
+  display: block;
+}
   /* END OF VINCENT */
 
   /* AARON */
@@ -215,10 +237,22 @@ footer {
   /* END OF AARON */
 }  
 
-
+}
 @media (min-width:980px) {
   /* VINCENT */
 
+
+
+
+/* element caché!! */
+.smartphone{
+  display: none;
+} 
+
+/* element affiché!! */
+.header-right{
+  display: block;
+}
 
 
   /* END OF VINCENT */
@@ -232,6 +266,20 @@ footer {
 
 @media (min-width:1280px) {
   /* VINCENT */
+
+
+
+/* element caché!! */
+.smartphone{
+  display: none;
+}  
+
+/* element affiché!! */
+.header-right{
+  display: block;
+}
+
+
 
 /* _______ footer _______ */
 
