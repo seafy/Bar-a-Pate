@@ -7,11 +7,17 @@
   -- <role>integrateur web 
   -- <twitter>Noraa_RB
 
-# THANKS
+  -- <name>Vincent 
+  -- <role>integrateur web 
+  -- <twitter>seafy
 
-    <name>
+  -- <name>Amel 
+  -- <role> Web Design
+  
+  -- <name> Mehdi
+  -- <role> Web Design
 
 # TECHNOLOGY COLOPHON
 
     CSS3, HTML5
-    Apache Server Configs, jQuery, Modernizr, Normalize.css
+    main.css, Normalize.css
