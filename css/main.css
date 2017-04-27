@@ -98,51 +98,59 @@ textarea {
 
 
 
+/* END OF VINCENT */
+
+/* AARON */
 
 
 
+/* END OF AARON */
 
 
-/* _______________END OF VINCENT________________________ */
-
-/* AARON : */
-
-
-
-
-
-/* ________________________END OF AARON________________________ */
-
-/* ________VINCENT MEDIA QUERY_______ */
+/* MEDIA QUERY */
 @media (min-width:768px) {
+  /* VINCENT */
 
+
+
+  /* END OF VINCENT */
+
+  /* AARON */
+
+
+
+  /* END OF AARON */
 }  
 
-@media (min-width:980px) {
 
+@media (min-width:980px) {
+  /* VINCENT */
+
+
+
+  /* END OF VINCENT */
+
+  /* AARON */
+
+
+
+  /* END OF AARON */
 }
 
 @media (min-width:1280px) {
+  /* VINCENT */
 
+
+
+  /* END OF VINCENT */
+
+  /* AARON */
+
+
+
+  /* END OF AARON */
 }
  
-/* _______END VINCENT MEDIA QUERY_______ */
-/* ________________________________________________________________________ */
-/* _______AARON MEDIA QUERY_______ */
-
-@media (min-width:768px) {
-
-}  
-
-@media (min-width:980px) {
-
-}
-
-@media (min-width:1280px) {
-
-}
- 
-/* _______END AARON MEDIA QUERY_______ */
 /* ==========================================================================
    Helper classes
    ========================================================================== */
