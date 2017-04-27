@@ -95,11 +95,17 @@ textarea {
    Author's custom styles
    ========================================================================== */
 /* VINCENT : */
+/* common-rules */
+body {
+  background-color: #CECECE;
+}
 
+/* Page Index */
 header {
   width: 100%;
   height: 75px;
-  background-color:pink;
+  background-color: #A3A3A3;
+
 }
 
 .header-right {
@@ -109,15 +115,40 @@ header {
 
 
 .header-right a {
-padding: 15px;
+  padding: 15px;
+  text-decoration: none;
+  border-radius: 5px;
 }
+
+.header-right a:hover { 
+  background-color: grey;
+  color: white;
+}
+
+/* _______ footer _______ */
+footer {
+  background-color: #A3A3A3;
+}
+
+
+.footer-left {
+}
+
+.footer-right {
+  float: right;
+  background-color:red;
+}
+
+.footer-right img{
+ max-width: 10%;
+ max-height: 10%; 
+}
+/* _______ end footer _______ */
 
 /* END OF VINCENT */
 
 /* AARON */
-body {
-  background-color: #BDBDBD;
-}
+
 
 /* QUI SOMME NOUS ? */
 .concept {
@@ -196,8 +227,13 @@ body {
 @media (min-width:1280px) {
   /* VINCENT */
 
+/* _______ footer _______ */
 
 
+.footer-right img{
+ max-width: 40px;
+ max-height: 40px; 
+}
   /* END OF VINCENT */
 
   /* AARON */
