@@ -101,7 +101,49 @@ textarea {
 /* END OF VINCENT */
 
 /* AARON */
+body {
+  background-color: #BDBDBD;
+}
 
+/* QUI SOMME NOUS ? */
+.concept {
+  width: 100%;
+}
+
+.concept h1 {
+  font-size: 30px;
+  font-family: 'Crafty Girls', cursive;
+  color: #E7399C;
+  background-color: #8C918E;
+  width: 60%;
+  height: 50px;
+  margin: auto;
+  text-align: center;
+}
+
+.concept article {
+  width: 48%;
+  background-color: #8C918E;
+  border-width: 5px;
+  border-style: outset;
+  border-color: #E7399C;
+  border-radius: 10px;
+}
+
+.concept div {
+  display: flex;
+  justify-content: space-between;
+  margin: 50px;
+}
+
+.concept h2 {
+  color: #E7399C;
+  text-align: center;
+}
+
+.concept p {
+  margin: 25px;
+}
 
 
 /* END OF AARON */
