@@ -148,7 +148,35 @@ header {
 
 /* ________ END OF SLIDER ________ */
 
+/* ________ About Us _________ */
 
+.about {
+  font-family: 'Crafty Girls', cursive;
+  width: 90%;
+  height: 45%;
+  color: black;
+  margin: auto;
+  margin-top: 20px;
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px; 
+  text-align: center;
+}
+
+.aboutus p{
+ 
+ font-family: 'Crafty Girls', cursive;
+ color: black; 
+}
+
+.team {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+
+/* ________END About Us _________ */
 /* _______ footer _______ */
 footer {
   background-color: white;
@@ -178,10 +206,16 @@ footer {
 
 .container-shop {
  width: 100%;
-  
+ display: flex;
+ flex-direction: column;
+ flex-wrap: wrap;
+ align-items: center; 
 }
 
-
+.container-shop article {
+  width: 300px;
+  height: 300px;
+}
 /* __________________ END PAGE SHOP (NOTRE CARTE)__________________ */
 
 /* END OF VINCENT */
