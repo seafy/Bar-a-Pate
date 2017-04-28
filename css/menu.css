@@ -1,5 +1,3 @@
-
-
         #navbar li, #navbar2 li {
  
         display: inline;
@@ -42,7 +40,7 @@
 	td.supported{background:#5f5; color:black; font-weight:bold;}
 	td.not-supported{background:#f55; color:black; font-weight:bold;}
 	.footnote {font-weight:normal;font-size:smaller; margin-top:0.5em; line-height:1em;}
-	a:hover, a:focus, a:active {border: 3px solid #c04;}
+	
 	a {border:3px solid transparent ;}
 	a > code, p > code, td > code, li > code, strong > code {color:#333; background-color:#def; text-decoration:none;}
 	
