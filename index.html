@@ -7,7 +7,7 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-    <title>Bar à Pates</title>
+    <title>Bar à Pates, accueil</title>
 
     <!-- Library -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -18,7 +18,14 @@
 
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/main.css">
+    <link title="teststyle" rel="stylesheet" href="css/menu.css" type="text/css" />
     <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+    
+    <style>
+      .mySlides {display:none}
+      .w3-left, .w3-right, .w3-badge {cursor:pointer}
+      .w3-badge {height:13px;width:13px;padding:0}
+    </style>
   </head>
   
   <body>
@@ -26,158 +33,145 @@
       <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
 
-    <!-- Add your site or application content here -->
-   <!-- ___________________HEADER___________________ -->
-   <header class="desktop">
-     <aside class="header-left"><img src="img/logo-header.png" alt="logo entreprise"></aside>
-     <aside class="header-right">
-       <a href="index.html">Accueil</a>
-       <a href="about.html">Qui somme-nous?</a>
-       <a href="shop.html">Notre carte</a>
-       <a href="contact.html">Contact</a>
-     </aside>
+    <!-- HEADER -->
+    <header class="desktop">
+      <aside class="header-left">
+        <img src="img/logo-header.png" alt="logo entreprise">
+      </aside>
+    
+      <aside class="header-right">
+        <a href="index.html">Accueil</a>
+        <a href="about.html">Qui somme-nous?</a>
+        <a href="shop.html">Notre carte</a>
+        <a href="contact.html">Contact</a>
+      </aside>
 
+      <aside class="smartphone">
+        <script type="text/javascript">
+           function toggle(id, id2) {
+           var n = document.getElementById(id);
+           if (n.style.display != 'none') 
+	         {
+	         n.style.display = 'none';
+           document.getElementById(id2).setAttribute('aria-expanded', 'false');
+           }
+           else
+           {
+           n.style.display = '';
+           document.getElementById(id2).setAttribute('aria-expanded', 'true');
+	         }
+           }
+        </script>
 
-  <aside class="smartphone">
-  <script type="text/javascript">
-  function toggle(id, id2) {
-    var n = document.getElementById(id);
-	if (n.style.display != 'none') 
-	  {
-	  n.style.display = 'none';
-      document.getElementById(id2).setAttribute('aria-expanded', 'false');
-  }
-  else
-  {
-  n.style.display = '';
-  document.getElementById(id2).setAttribute('aria-expanded', 'true');
-	  }
-  }
-  </script>
-  <link title="teststyle" rel="stylesheet" href="css/menu.css" type="text/css" />
-</head>
+        <a aria-expanded="false" id="TLink1" href="#" onclick="toggle('navbar', 'TLink1')"><i class="material-icons">menu</i></a>
 
-<body>
-  <a aria-expanded="false" id="TLink1" href="#" onclick="toggle('navbar', 'TLink1')"><i class="material-icons">menu</i></a>
-  <ul style="display: none;" id="navbar">
-  <li><a href="http://example.com/target1.html">Link 1</a></li>
-  <li><a href="http://example.com/target2.html">Link 2</a></li>
-  <li><a href="http://example.com/target3.html">Link 3</a></li>
-  <li><a href="http://example.com/target4.html">Link 4</a></li>
-  </ul>
-  
+        <ul style="display: none;" id="navbar">
+          <li><a href="http://example.com/target1.html">Link 1</a></li>
+          <li><a href="http://example.com/target2.html">Link 2</a></li>
+          <li><a href="http://example.com/target3.html">Link 3</a></li>
+          <li><a href="http://example.com/target4.html">Link 4</a></li>
+        </ul>
+      </aside>
+    </header>
+    <!-- HEADER -->
 
-
-
-   </header></header>
-   </aside>
-
-   <!-- ___________________END HEADER___________________ -->
-   <!-- ___________________SLIDER ___________________ -->
+    <!-- SLIDER -->
+    <div class="w3-content w3-display-container" style="max-width:800px">
+      <img class="mySlides" src="img/grand-logo2.jpg" alt="#" style="width:100%">
+      <img class="mySlides" src="img/logo.jpg" alt="#" style="width:100%">
+      <img class="mySlides" src="img/logo.jpg" alt="#" style="width:100%">
+      <img class="mySlides" src="img/logo.jpg" alt="#" style="width:100%">
+      <img class="mySlides" src="img/logo.jpg" alt="#" style="width:100%">  
    
-<style>
-.mySlides {display:none}
-.w3-left, .w3-right, .w3-badge {cursor:pointer}
-.w3-badge {height:13px;width:13px;padding:0}
-</style>
+      <div class="w3-center w3-container w3-section w3-large w3-text-pink w3-display-bottommiddle" style="width:100%">
+        <div class="w3-left w3-hover-text-khaki" onclick="plusDivs(-1)">&#10094;</div>
+        <div class="w3-right w3-hover-text-khaki" onclick="plusDivs(1)">&#10095;</div>
+        <span class="w3-badge demo w3-border w3-transparent w3-hover-pink" onclick="currentDiv(1)"></span>
+        <span class="w3-badge demo w3-border w3-transparent w3-hover-pink" onclick="currentDiv(2)"></span>
+        <span class="w3-badge demo w3-border w3-transparent w3-hover-pink" onclick="currentDiv(3)"></span>
+      </div>
+    </div>
 
-<div class="w3-content w3-display-container" style="max-width:800px">
-  <img class="mySlides" src="img/grand-logo2.jpg" style="width:100%">
-  <img class="mySlides" src="img/logo.jpg" style="width:100%">
-  <img class="mySlides" src="img/logo.jpg" style="width:100%">
-  <img class="mySlides" src="img/logo.jpg" style="width:100%">
-  <img class="mySlides" src="img/logo.jpg" style="width:100%">  
-   
-  <div class="w3-center w3-container w3-section w3-large w3-text-pink w3-display-bottommiddle" style="width:100%">
-    <div class="w3-left w3-hover-text-khaki" onclick="plusDivs(-1)">&#10094;</div>
-    <div class="w3-right w3-hover-text-khaki" onclick="plusDivs(1)">&#10095;</div>
-    <span class="w3-badge demo w3-border w3-transparent w3-hover-pink" onclick="currentDiv(1)"></span>
-    <span class="w3-badge demo w3-border w3-transparent w3-hover-pink" onclick="currentDiv(2)"></span>
-    <span class="w3-badge demo w3-border w3-transparent w3-hover-pink" onclick="currentDiv(3)"></span>
-  </div>
-</div>
+    <script>
+      var slideIndex = 1;
+      showDivs(slideIndex);
 
-<script>
-var slideIndex = 1;
-showDivs(slideIndex);
+      function plusDivs(n) {
+      showDivs(slideIndex += n);
+      }
 
-function plusDivs(n) {
-  showDivs(slideIndex += n);
-}
+      function currentDiv(n) {
+      showDivs(slideIndex = n);
+      }   
 
-function currentDiv(n) {
-  showDivs(slideIndex = n);
-}
+      function showDivs(n) {
+      var i;
+      var x = document.getElementsByClassName("mySlides");
+      var dots = document.getElementsByClassName("demo");
+      if (n > x.length) {slideIndex = 1}
+      if (n < 1) {slideIndex = x.length}
+      for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none";
+      }
+      for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" w3-white", "");
+      }
+      x[slideIndex-1].style.display = "block";
+      dots[slideIndex-1].className += " white";
+      }
+    </script>
+    <!-- END SLIDER -->
 
-function showDivs(n) {
-  var i;
-  var x = document.getElementsByClassName("mySlides");
-  var dots = document.getElementsByClassName("demo");
-  if (n > x.length) {slideIndex = 1}
-  if (n < 1) {slideIndex = x.length}
-  for (i = 0; i < x.length; i++) {
-     x[i].style.display = "none";
-  }
-  for (i = 0; i < dots.length; i++) {
-     dots[i].className = dots[i].className.replace(" w3-white", "");
-  }
-  x[slideIndex-1].style.display = "block";
-  dots[slideIndex-1].className += " white";
-}
-</script>
+    <!-- SECTION NOS PRODUIT FAVORIS -->
+      <section class="nos-produits-favoris">
+        <h1>Les plats favoris</h1>
+        <p>Amet aut dignissimos nobis facilis odio officiis voluptate impedit at id. Nostrum tempore inventore consectetur sint rem modi aliquam voluptatum quos. Hic quia incidunt accusantium iste corrupti, voluptates. Quam libero.</p>
+       
+        <figure><img src="img/pates.jpeg" alt="#"></figure>
+        <figure><img src="img/pates.jpeg" alt="#"></figure>
+        <figure><img src="img/pates.jpeg" alt="#"></figure>
+      </section>
+      <!-- END NOS PRODUIT FAVORIS -->
 
-
-   <!-- __________________ END SLIDER ___________________ -->
-   <!-- __________________ SECTION NOS PRODUIT FAVORIS ___________________ -->
-
-   <section class="nos-produits-favoris">
-     <h1>Les plats favoris</h1>
-     <p>Amet aut dignissimos nobis facilis odio officiis voluptate impedit at id. Nostrum tempore inventore consectetur sint rem modi aliquam voluptatum quos. Hic quia incidunt accusantium iste corrupti, voluptates. Quam libero.</p>
-     <figure><img src="img/pates.jpeg" alt=""></figure>
-     <figure><img src="img/pates.jpeg" alt=""></figure>
-     <figure><img src="img/pates.jpeg" alt=""></figure>
-   </section>
-   <!-- __________________ END NOS PRODUIT FAVORIS ___________________ -->
-   <!-- __________________ QUI SOMME NOUS ? ___________________ -->
-   <section class="aboutus">
-     <h1>Le Staff</h1>
-     <p>L’Atelier 72, c’est l’histoire de deux soeurs Cécile et Isabelle Masurel qui cuisinent chaque jour des produits frais pour vous garantir la meilleure qualité et les meilleures saveurs.</p>
-     <article>
-       <figure>
-         <img src="" alt="">
-         <span></span>
-       </figure>
-       <figure>
-         <img src="" alt="">
-         <span></span>
-       </figure>
-     </article>
-   </section>
-   <!-- __________________ END QUI SOMME NOUS ? ___________________ -->
-   <!-- __________________ FOOTER  ___________________ -->
-   <footer>
-   
-   <aside class="footer-left">
-     <ul>
-     <li><i>51 rue du Fontenoy, 59100 ROUBAIX</li>
-     <li><i>Phone: 06 61 18 76 24</li>
-     <li><i>Horaire: 11h à 14h</li>
-     <li><i>du Lundi au Vendredi</li>
-     </ul>
-   </aside>
+      <!-- QUI SOMME NOUS ? -->
+      <section class="aboutus">
+        <h1>Le Staff</h1>
+        <p>L’Atelier 72, c’est l’histoire de deux soeurs Cécile et Isabelle Masurel qui cuisinent chaque jour des produits frais pour vous garantir la meilleure qualité et les meilleures saveurs.</p>
+        <div>
+          <figure>
+            <img src="#" alt="#">
+            <span></span>
+          </figure>
+     
+          <figure>
+            <img src="#" alt="#">
+            <span></span>
+          </figure>
+        </div>
+     </section>
+     <!-- END QUI SOMME NOUS ? -->
  
-   <aside class="footer-right">
-   <article>   
-   <a href="www.facebook.com/"><img src="img/icon/facebook.png" alt="facebook"></a>
-   <a href=""><img src="img/icon/instagram.png" alt="instagram"></a>
-   <a href=""><img src="img/icon/snap.png" alt="snapchat"></a>
-   <a href=""><img src="img/icon/twitter.png" alt="twitter"></a>
-   </article>
-   </aside>
-
+     <!-- FOOTER  -->
+     <footer>
+       <aside class="footer-left">
+         <ul>
+           <li>51 rue du Fontenoy, 59100 ROUBAIX</li>
+           <li>Phone: 06 61 18 76 24</li>
+           <li>Horaire: 11h à 14h</li>
+           <li>du Lundi au Vendredi</li>
+         </ul>
+     </aside>
+ 
+     <aside class="footer-right">
+       <div>   
+         <a href="www.facebook.com/"><img src="img/icon/facebook.png" alt="facebook"></a>
+         <a href="#"><img src="img/icon/instagram.png" alt="instagram"></a>
+         <a href="#"><img src="img/icon/snap.png" alt="snapchat"></a>
+         <a href="#"><img src="img/icon/twitter.png" alt="twitter"></a>
+       </div>
+     </aside>
    </footer>
-   <!-- __________________ END FOOTER  ___________________ -->
-   
+   <!-- END FOOTER -->
 
    <!-- end your site here -->
     <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
@@ -194,7 +188,5 @@ function showDivs(n) {
       r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
       ga('create','UA-XXXXX-X','auto');ga('send','pageview');
     </script>
-
- 
   </body>
 </html>
