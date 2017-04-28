@@ -182,6 +182,7 @@ footer {
   width: 100%;
 }
 
+
 .concept h1 {
   font-size: 30px;
   font-family: 'Crafty Girls', cursive;
@@ -221,38 +222,72 @@ footer {
 /* END OF QUI SOMME NOUS */
 
 /* CONTACT */
+.contact h2 {
+  font-size: 30px;
+  font-family: 'Crafty Girls', cursive;
+  color: #E7399C;
+  width: 50%;
+  height: 80px;
+  margin: auto;
+  text-align: center;
+  margin-top: 20px;
+  border-width: 3px;
+  border-radius: 10px;
+  border-color: white;
+  border-style: solid;
+}
 
+.contact article h3 {
+  font-size: 25px;
+  font-family: 'Crafty Girls', cursive;
+  color: #E7399C;
+}
 
+.contact article {
+  width: 90%;
+  background: url(../img/ardoise.jpg);
+  border-width: 3px;
+  border-radius: 10px;
+  border-color: white;
+  border-style: solid;
+  margin: auto;
+  height: 50%;
+  color: #FFF;
+  margin-top: 20px;
+}
 
+.maps {
+  width: 90%;
+  margin: auto;
+  height: 50%;
+  margin-top: 20px;
+}
+
+.maps iframe {
+  width: 100%;
+  height: 100%;
+}
+/* END OF CONTACT */
 /* END OF AARON */
 
 
 /* MEDIA QUERY */
 @media (min-width:768px) {
   /* VINCENT */
-
-  
-
-/* element caché!! */
-.header-right{
+  /* element caché!! */
+  .header-right{
   display: none;
-}
+  }
 
-/* element affiché!! */
-.smartphone{
+  /* element affiché!! */
+  .smartphone{
   display: block;
-}
+  }
   /* END OF VINCENT */
 
-  /* AARON */
-
-
-
-  /* END OF AARON */
 }  
 
-}
-@media (min-width:980px) {
+@media (min-width: 980px) {
   /* VINCENT */
 
 
@@ -271,43 +306,41 @@ footer {
 
   /* END OF VINCENT */
 
-  /* AARON */
-
-
-
-  /* END OF AARON */
 }
 
 @media (min-width:1280px) {
   /* VINCENT */
+  /* element caché!! */
+  .smartphone{
+    display: none;
+  }  
 
-
-
-/* element caché!! */
-.smartphone{
-  display: none;
-}  
-
-/* element affiché!! */
-.header-right{
-  display: block;
-}
-
-
-
-/* _______ footer _______ */
-
-
-.footer-right img{
- max-width: 40px;
- max-height: 40px; 
-}
+  /* element affiché!! */
+  .header-right{
+    display: block;
+  }
+  /* _______ footer _______ */
+  .footer-right img{
+    max-width: 40px;
+    max-height: 40px; 
+  }
   /* END OF VINCENT */
 
   /* AARON */
+  /* CONTACT */
+  .contact_container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .jsp {
+    height: 100%;
+  }
 
-
-
+  .maps {
+    height: 300px;
+  }
+  /* END OF CONTACT */
   /* END OF AARON */
 }
  
