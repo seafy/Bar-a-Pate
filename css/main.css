@@ -147,25 +147,7 @@ header {
 }  
 
 /* ________ END OF SLIDER ________ */
-/* ______NOS PRODUIT FAVORIS_______ */
-.nos-produits-favoris{
-  
-}  
 
-.nos-produits-favoris h1 p{
- color: white; 
-}  
-
-.les-pates {
-  width: 450px;
-  height: 100%;
-  background-color: blue;
-  display: flex;
-  flex-direction: column;
-}
-
-
-/* ____END NOS PRODUIT FAVORIS_____ */
 
 /* _______ footer _______ */
 footer {
@@ -191,6 +173,16 @@ footer {
  max-height: 10%; 
 }
 /* _______ end footer _______ */
+
+/* __________________ PAGE SHOP (NOTRE CARTE)__________________ */
+
+.container-shop {
+ width: 100%;
+  
+}
+
+
+/* __________________ END PAGE SHOP (NOTRE CARTE)__________________ */
 
 /* END OF VINCENT */
 
