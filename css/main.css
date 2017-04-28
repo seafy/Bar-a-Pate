@@ -147,7 +147,6 @@ header {
 }  
 
 /* ________ END OF SLIDER ________ */
-<<<<<<< HEAD
 /* ______NOS PRODUIT FAVORIS_______ */
 .nos-produits-favoris{
   
@@ -167,9 +166,7 @@ header {
 
 
 /* ____END NOS PRODUIT FAVORIS_____ */
-=======
 
->>>>>>> 98cd8563eefce672a8c93b9dd2e592d28f4a4920
 /* _______ footer _______ */
 footer {
   background-color: white;
@@ -182,6 +179,7 @@ footer {
 .footer-left ul{
   list-style: none;
   float: left;
+  margin: auto;
 }
 
 .footer-right {
