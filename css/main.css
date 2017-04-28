@@ -98,7 +98,7 @@ textarea {
 
 /* common-rules */
 html{
-  background: url(../img/mur.png);
+  background: url(../img/mur.jpg);
 }  
 
 
@@ -113,15 +113,17 @@ html{
 
 /* Page Index */
 header {
+  margin-top: 1em;
   width: 100%;
   height: auto;
-  background: transparent;
-  color: pink;
+  background-color: white;
+  border-radius: 5px;
+  color: #363535;
 }
 
 
 .header-right {
-  margin-top: -2.5%;
+  margin-top: -3.5%;
   float: right;
 }
 
@@ -137,9 +139,18 @@ header {
   color: white;
 }
 
+/* _______ SLIDER _______ */
+
+.slider{
+  margin-top: 1em;
+  border: 5px;
+  border-color: 3px;
+}  
+
+/* ________ END OF SLIDER ________ */
 /* _______ footer _______ */
 footer {
-  background-color: #A3A3A3;
+  background-color: white;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -153,8 +164,6 @@ footer {
 
 .footer-right {
   float: right;
-  display: flex;
-  align-items: center;
 }
 
 .footer-right img{
