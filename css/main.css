@@ -99,7 +99,7 @@ textarea {
 /* common-rules */
 html{
   /* background: url(../img/mur.jpg); */
-  background-color:#F7C9ED
+  background-color: #F4E3EF;
 }  
 
 
@@ -250,28 +250,29 @@ footer {
   margin: auto;
   text-align: center;
   margin-top: 20px;
-  border-width: 3px;
   border-radius: 10px;
-  border-color: white;
+  border-width: 3px;
   border-style: solid;
+  border-color: white;
+  padding-top: 30px;
 }
 
 .contact article h3 {
-  font-size: 25px;
+  font-size: 20px;
   font-family: 'Crafty Girls', cursive;
   color: #E7399C;
+  text-align: center;
+  border-radius: 10px;
 }
 
 .contact article {
+  font-size: 15px;
   width: 90%;
-  background: url(../img/ardoise.jpg);
-  border-width: 3px;
+  background-color: white; 
   border-radius: 10px;
-  border-color: white;
-  border-style: solid;
   margin: auto;
-  height: 50%;
-  color: #FFF;
+  height: 70%;
+  color: black;
   margin-top: 20px;
 }
 
