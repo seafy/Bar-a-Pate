@@ -98,7 +98,8 @@ textarea {
 
 /* common-rules */
 html{
-  background: url(../img/mur.jpg);
+  /* background: url(../img/mur.jpg); */
+  background-color:#F7C9ED
 }  
 
 
@@ -143,12 +144,32 @@ header {
 
 .slider{
   margin-top: 1em;
-  border: 5px;
-  border-color: 3px;
 }  
 
 /* ________ END OF SLIDER ________ */
+<<<<<<< HEAD
+/* ______NOS PRODUIT FAVORIS_______ */
+.nos-produits-favoris{
+  
+}  
 
+.nos-produits-favoris h1 p{
+ color: white; 
+}  
+
+.les-pates {
+  width: 450px;
+  height: 100%;
+  background-color: blue;
+  display: flex;
+  flex-direction: column;
+}
+
+
+/* ____END NOS PRODUIT FAVORIS_____ */
+=======
+
+>>>>>>> 98cd8563eefce672a8c93b9dd2e592d28f4a4920
 /* _______ footer _______ */
 footer {
   background-color: white;
