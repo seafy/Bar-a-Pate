@@ -215,19 +215,19 @@ footer {
   border-radius: 10px;
   border-color: white;
   border-style: solid;
+  padding-top: 30px;
 }
 
 .concept article {
+  font-family: 'Crafty Girls', cursive;
   width: 90%;
   height: 45%;
-  border-width: 5px;
-  border-style: solid;
-  border-color: white;
-  border-radius: 10px;
-  color: #FFF;
+  color: black;
   margin: auto;
   margin-top: 20px;
-  background: url(../img/ardoise.jpg);
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
 }
 
 .concept h2 {
