@@ -146,6 +146,7 @@ header {
 }  
 
 /* ________ END OF SLIDER ________ */
+<<<<<<< HEAD
 /* ______NOS PRODUIT FAVORIS_______ */
 .nos-produits-favoris{
   
@@ -165,14 +166,17 @@ header {
 
 
 /* ____END NOS PRODUIT FAVORIS_____ */
+=======
+
+>>>>>>> 98cd8563eefce672a8c93b9dd2e592d28f4a4920
 /* _______ footer _______ */
 footer {
   background-color: white;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-top: 20px;
 }
-
 
 .footer-left ul{
   list-style: none;
@@ -193,8 +197,7 @@ footer {
 
 /* AARON */
 
-
-/* QUI SOMME NOUS ? */
+/* QUI SOMME NOUS */
 .concept {
   width: 100%;
 }
@@ -203,26 +206,28 @@ footer {
   font-size: 30px;
   font-family: 'Crafty Girls', cursive;
   color: #E7399C;
-  background-color: #8C918E;
-  width: 60%;
-  height: 50px;
+  width: 50%;
+  height: 80px;
   margin: auto;
   text-align: center;
+  margin-top: 20px;
+  border-width: 3px;
+  border-radius: 10px;
+  border-color: white;
+  border-style: solid;
 }
 
 .concept article {
-  width: 48%;
-  background-color: #8C918E;
+  width: 90%;
+  height: 45%;
   border-width: 5px;
-  border-style: outset;
-  border-color: #E7399C;
+  border-style: solid;
+  border-color: white;
   border-radius: 10px;
-}
-
-.concept div {
-  display: flex;
-  justify-content: space-between;
-  margin: 50px;
+  color: #FFF;
+  margin: auto;
+  margin-top: 20px;
+  background: url(../img/ardoise.jpg);
 }
 
 .concept h2 {
@@ -233,6 +238,10 @@ footer {
 .concept p {
   margin: 25px;
 }
+/* END OF QUI SOMME NOUS */
+
+/* CONTACT */
+
 
 
 /* END OF AARON */
