@@ -32,15 +32,45 @@
     <![endif]-->
     
     <!-- START OF HEADER -->
-   <header>
-     <aside class="header-left"><img src="img/logo-header.png" alt="logo entreprise"></aside>
-     <aside class="header-right">
-       <a href="index.html">Accueil</a>
-       <a href="about.html">Qui somme-nous?</a>
-       <a href="shop.html">Notre carte</a>
-       <a href="contact.html">Contact</a>
-     </aside>
-   </header>
+    <header class="desktop">
+      <aside class="header-left">
+        <img src="img/logo-header.png" alt="logo entreprise">
+      </aside>
+    
+      <aside class="header-right">
+        <a href="index.html">Accueil</a>
+        <a href="about.html">Qui somme-nous?</a>
+        <a href="shop.html">Notre carte</a>
+        <a href="contact.html">Contact</a>
+      </aside>
+
+      <aside class="smartphone">
+        <script type="text/javascript">
+           function toggle(id, id2) {
+           var n = document.getElementById(id);
+           if (n.style.display != 'none') 
+	         {
+	         n.style.display = 'none';
+           document.getElementById(id2).setAttribute('aria-expanded', 'false');
+           }
+           else
+           {
+           n.style.display = '';
+           document.getElementById(id2).setAttribute('aria-expanded', 'true');
+	         }
+           }
+        </script>
+
+        <a aria-expanded="false" id="TLink1" href="#" onclick="toggle('navbar', 'TLink1')"><i class="material-icons">menu</i></a>
+
+        <ul style="display: none;" id="navbar">
+          <li><a href="http://example.com/target1.html">Link 1</a></li>
+          <li><a href="http://example.com/target2.html">Link 2</a></li>
+          <li><a href="http://example.com/target3.html">Link 3</a></li>
+          <li><a href="http://example.com/target4.html">Link 4</a></li>
+        </ul>
+      </aside>
+    </header>
     <!-- END OF HEADER -->
 
     <!-- START OF MIDDLE PAGE -->
