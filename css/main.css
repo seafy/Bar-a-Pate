@@ -143,11 +143,28 @@ header {
 
 .slider{
   margin-top: 1em;
-  border: 5px;
-  border-color: 3px;
 }  
 
 /* ________ END OF SLIDER ________ */
+/* ______NOS PRODUIT FAVORIS_______ */
+.nos-produits-favoris{
+  
+}  
+
+.nos-produits-favoris h1 p{
+ color: white; 
+}  
+
+.les-pates {
+  width: 450px;
+  height: 100%;
+  background-color: blue;
+  display: flex;
+  flex-direction: column;
+}
+
+
+/* ____END NOS PRODUIT FAVORIS_____ */
 /* _______ footer _______ */
 footer {
   background-color: white;
